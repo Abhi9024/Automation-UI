@@ -1,0 +1,13 @@
+ .ui-table .ui-table-thead > tr > th{
+    font-size: 0.7rem !important;
+}
+
+th {
+    text-align: center;
+    font-size: 0.7em;
+  }
+
+  td {
+    text-align: left;
+    font-size: 0.7em;
+  }

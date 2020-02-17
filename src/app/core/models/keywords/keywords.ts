@@ -1,0 +1,26 @@
+export class Keywords {
+    functionName: string; 
+    stepDescription: string; 
+    actionOrKeyword: string; 
+    objectLogicalName: string; 
+    run: string; 
+    module: string;
+    param1: string; 
+    param2: string; 
+    param3: string; 
+    param4: string; 
+    param5: string; 
+    param6: string; 
+    param7 : string; 
+    param8: string; 
+    param9: string; 
+    param10: string;    
+    statusID: number;
+    cudStatusID: number;
+    isLocked: boolean;
+    lockedByUser: number;
+    createdOn: string;
+    updatedOn: string;
+    userId: number;
+    id: number; 
+  };

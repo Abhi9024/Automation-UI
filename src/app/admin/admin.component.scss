@@ -1,0 +1,209 @@
+@import '../../assets/scss/common.scss';
+@import '../../assets/scss/spacing-out.scss';
+@import '../../assets/scss/toastr.scss';
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: visible;
+}
+
+.mat-drawer-container {
+    overflow: visible !important;
+}
+
+.sidebar .nav li > a{
+    margin-right: 3.5em !important;
+    padding: 0px !important;
+}
+
+.sidebar{
+    width: 20%;
+}
+
+// .sidebar .sidebar-wrapper{
+//     width: 228px;
+// }
+
+.main-panel{
+    // width: 875px !important;
+    width: 80% !important;
+}
+
+.sidebar .nav li.active > a{
+    color: black;
+}
+
+.panel-header {
+    background: whitesmoke !important;
+}
+
+.navbar a:not(.btn):not(.dropdown-item){
+    color: #007bff !important;
+}
+
+.input-group-text{
+    color: #007bff !important;
+}
+
+mat-sidenav-container {
+    overflow: hidden;
+    flex: 1;
+}
+
+mat-sidenav-content {
+    background: #e6f4ff !important;
+}
+
+.admin-page-header {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: #007bff;
+    font-weight: bolder;
+}
+
+th {
+    text-align: center;
+    font-size: 0.8em;
+  }
+  td {
+    text-align: left;
+    font-size: 0.8em;
+  }
+
+  body .ui-table .ui-table-tbody > tr > td {
+      padding: none !important;
+  }
+
+  .ui-table .ui-table-tbody > tr{
+      word-break: break-all;
+  }
+
+  p-table .ui-table .ui-table-thead > tr > th {
+    color: #003a66 !important;
+    border-color: #003a66 !important;
+    background: #B3DEFF !important;
+}
+
+p-table .ui-table .ui-sortable-column .ui-sortable-column-icon {
+    color: #003a66 !important;
+}
+
+
+
+p-table .ui-paginator {
+    color: #007ad9 !important;
+    border-color: #FFFFFF !important;
+    background: #e6f4ff !important;
+}
+
+.tooltip-ex { /* Container for our tooltip */
+    position: relative; 
+    display: inline-block;
+   }
+   
+   .tooltip-ex .tooltip-ex-text { /* This is for the tooltip text */
+    visibility: hidden;
+    width: 100px;
+    background-color: #007ad9;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px; /* This defines tooltip text position */
+    position: fixed;
+    
+    z-index: 99999999;
+   }
+   
+   .tooltip-ex:hover .tooltip-ex-text { /* Makes tooltip text visible when text is hovered on */
+    visibility: visible;
+   }
+
+   p-table .ui-table .ui-table-tbody > tr.ui-state-highlight {
+    background: #ccf5ff;
+    color: black;
+   }
+
+   p-table .ui-table .ui-table-tbody > tr:nth-child(even).ui-state-highlight {
+    background: #ccf5ff !important;
+    color: black !important;
+   }
+
+   p-table .ui-table .ui-table-tbody > tr:nth-child(even) {
+    background: #e6f4ff !important;
+}
+
+   .tooltipStyle {
+    background-color: var(--backgroud_white);
+    min-width: 10%;
+    max-width: 10%;
+    height: auto;
+  }
+  
+   .tooltipStyle > .ui-tooltip-text.ui-shadow.ui-corner-all {
+      background-color: #e1eaf2;
+      color: #000;
+      white-space: pre-wrap;
+      overflow-wrap: break-word;
+      font-size: 14px;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .testscripts-add-btn {
+        border: 1px solid #CC6600;
+        color: #CC6600;
+        background: transparent;
+    }
+
+    .testscripts-add-btn:hover {
+        border: 1px solid #CC6600;
+        color: white;
+        background: #CC6600;
+    }
+
+    .testdata-add-btn {
+        border: 1px solid #400080;
+        color: #400080;
+        background: transparent;
+    }
+
+    .testdata-add-btn:hover {
+        border: 1px solid #400080;
+        color: white;
+        background: #400080;
+    }
+    .keyword-add-btn {
+        border: 1px solid #215E44;
+        color: #215E44;
+        background: transparent;
+    }
+
+    .keyword-add-btn:hover {
+        border: 1px solid #215E44;
+        color: white;
+        background: #215E44;
+    }
+    .repository-add-btn {
+        border: 1px solid #0075D0;
+        color: #0075D0;
+        background: transparent;
+    }
+
+    .repository-add-btn:hover {
+        border: 1px solid #0075D0;
+        color: white;
+        background: #0075D0;
+    }
+    .feature-add-btn {
+        border: 1px solid #B32400;
+        color: #B32400;
+        background: transparent;
+    }
+
+    .feature-add-btn:hover {
+        border: 1px solid #B32400;
+        color: white;
+        background: #B32400;
+    }

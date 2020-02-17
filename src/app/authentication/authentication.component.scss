@@ -1,0 +1,126 @@
+@import '../../assets/scss/toastr.scss';
+
+
+.chk-control {
+    background-color: transparent;
+    border: 1px solid #E3E3E3;
+    border-radius: 30px;
+    color: #2c2c2c;
+    line-height: normal;
+}
+
+.login-card {
+    
+    // margin: 5em auto;
+    height: 70vh !important;
+    width: 90% !important;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    border-radius: 1em !important;
+}
+
+.overlay-box {
+    text-align: center;
+    height: 10vh;
+    width: 4em;
+    position: fixed;
+    top: 9vh;
+    right: 30vh;
+    z-index: 999;
+    background: #0033A1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 100%;
+}
+
+
+.material-form {
+    margin: 10px;
+}
+
+.controls-container {
+    width: 100%;
+    padding: 5%;
+}
+
+.controls-container > * {
+    width: 100%;
+}
+
+.add-bottom-padding {
+    padding-bottom: 10px;
+}
+  
+.button-row button{
+    margin: 5px;
+}
+
+.form-button {
+    border-radius: 0px;
+    width: 70%;
+}
+
+.login-button {
+    color: #7F23C8 !important;
+    background: transparent !important;
+    border: 1px solid #7F23C8 !important;
+    border-radius: 20px;
+}
+
+.login-button:hover {
+    color: #FFFFFF !important;
+    background: #7F23C8 !important;
+    border: 1px solid #7F23C8 !important;
+    border-radius: 20px;
+}
+
+.control-full-width{
+    width: 70%;
+}
+
+.montserrat-font {
+    font-family: "Montserrat" !important;
+} 
+
+.login-card {
+    height: 60vh;
+}
+
+#lock-icon-overlay{
+    position: absolute;
+    height:10vh;
+    width: 10vh;
+    top: 17vh;
+    right: 30vh;
+    background: #0033A1;
+    color: white;
+    text-align: center !important;
+    align-items: center !important;
+    padding: 2vh;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 100%;
+}
+
+.lock-icon {
+    font-size: 2.5em;
+}
+
+.user-logo {
+    font-size: 1.5em;
+}
+
